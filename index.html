@@ -127,12 +127,15 @@
     <span class="steam w-2.5 h-2.5 left-[70%] animate-bubbleUp" style="animation-delay:1.6s"></span>
 
     <div class="mx-auto mb-4 w-16 h-16 rounded-full bg-molasses-deep flex items-center justify-center shadow-glow animate-floatSlow">
-      <svg class="w-8 h-8" viewBox="0 0 40 40" fill="none">
-        <path d="M16 6h8v9l8 15a3 3 0 0 1-2.7 4.5H10.7A3 3 0 0 1 8 30l8-15V6Z" stroke="#F2E8D5" stroke-width="2" stroke-linejoin="round"/>
-        <path d="M13.5 24h13" stroke="#F2E8D5" stroke-width="2"/>
-        <circle cx="20" cy="30" r="1.6" fill="#D9A441"/>
-        <circle cx="24.5" cy="27.5" r="1.1" fill="#D9A441"/>
-        <circle cx="17" cy="28" r="1" fill="#D9A441"/>
+      <svg class="w-[78%] h-[78%] transition-transform duration-700 group-hover:scale-105" viewBox="0 0 200 200" fill="none">
+          <path d="M78 20h44v46l38 74a14 14 0 0 1-12.4 20.5H52.4A14 14 0 0 1 40 140l38-74V20Z" stroke="#F2E8D5" stroke-width="3"/>
+          <path d="M62 108h76" stroke="#F2E8D5" stroke-width="3"/>
+          <!-- Penambahan animasi floatSlow dan delay agar partikel bergerak naik turun bergantian -->
+          <circle cx="100" cy="128" r="7" fill="#D9A441" class="animate-floatSlow" style="animation-delay: 0s;" />
+          <circle cx="118" cy="118" r="5" fill="#A65C22" class="animate-floatSlow" style="animation-delay: 0.5s;" />
+          <circle cx="84" cy="122" r="4.5" fill="#4A5D3A" class="animate-floatSlow" style="animation-delay: 1s;" />
+          <circle cx="106" cy="145" r="4" fill="#8C3B2B" class="animate-floatSlow" style="animation-delay: 1.5s;" />
+          <circle cx="90" cy="150" r="3" fill="#D9A441" class="animate-floatSlow" style="animation-delay: 2s;" />
       </svg>
     </div>
     <div class="text-xs font-semibold tracking-wide text-caramel mb-1">ETNOKIMIA JAMBI</div>
